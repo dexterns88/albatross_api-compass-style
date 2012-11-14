@@ -1,0 +1,640 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* import compass custom tools style */
+/* main */
+/**
+ * Global variable file
+ * R.D/ 05.11.2012.
+ * Cr/ Dexter
+ * V: 1.0
+**/
+/* EXAMPE!!
+ * $variable_name : var_value; ->( $text-color : #3d3d3d; )
+ * variable need to have comment for what we use it
+**/
+/*================================================================================================*/
+/*
+ * fonts file variable
+ * /
+
+
+
+/* base font for pre, code , samp , tt and var */
+/* fonr for textarea */
+/* link-color */
+/*
+ * table variable
+**/
+/* ============ default value */
+/* border */
+/* spacing */
+/* color */
+/* 
+ * form variable
+**/
+/*
+ * drupal variable
+**/
+/* views =========================================================================================*/
+/* navigation and menu ===========================================================================*/
+/* padding */
+/* color */
+/* background-color */
+/**
+ * @file
+ * Basic styling
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_main\.scss}line{font-family:\000031}}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_main\.scss}line{font-family:\000036}}
+* {
+  margin-top: 0;
+  word-wrap: break-word;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_main\.scss}line{font-family:\0000316}}
+pre,
+code,
+kbd,
+samp,
+tt,
+var {
+  font-family: "DejaVu Sans Mono", "Courier New", monospace;
+  font-size: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_main\.scss}line{font-family:\0000320}}
+.green {
+  color: green;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_main\.scss}line{font-family:\0000323}}
+.red {
+  color: red;
+}
+
+/* Forms
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_form\.scss}line{font-family:\000033}}
+label {
+  margin-bottom: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_form\.scss}line{font-family:\000038}}
+button,
+input,
+select {
+  font-size: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_form\.scss}line{font-family:\0000311}}
+textarea {
+  font-size: 0.9em;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_form\.scss}line{font-family:\0000315}}
+input.form-submit {
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_form\.scss}line{font-family:\0000323}}
+input[type="text"],
+input[type="password"],
+input[type="file"],
+input[type="mail"],
+select,
+textarea {
+  padding: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_form\.scss}line{font-family:\0000333}}
+:disabled {
+  color: #b3b3b3;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_form\.scss}line{font-family:\0000340}}
+input[type="text"]:disabled,
+input[type="password"]:disabled,
+input[type="file"]:disabled,
+select:disabled,
+textarea:disabled {
+  background-color: #f9f9f9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_form\.scss}line{font-family:\0000343}}
+fieldset {
+  border: solid 1px #cccccc;
+  padding: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_form\.scss}line{font-family:\0000347}}
+legend {
+  border: solid 1px #cccccc;
+  padding: 2px 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_form\.scss}line{font-family:\0000351}}
+fieldset {
+  margin-bottom: 10px;
+}
+
+/* Lists
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_lists\.scss}line{font-family:\000037}}
+.block ul,
+ul,
+ol,
+.item-list ul,
+.item-list ol {
+  margin: 1em 0;
+  padding: 0 0 0 2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_lists\.scss}line{font-family:\0000311}}
+dl {
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_lists\.scss}line{font-family:\0000314}}
+dd {
+  margin-left: 2em;
+}
+
+/* Headings
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_paragraph\.scss}line{font-family:\000033}}
+h1 {
+  font-size: 2.1em;
+  line-height: 1em;
+  margin: 0 0 0.500em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_paragraph\.scss}line{font-family:\000038}}
+h2 {
+  font-size: 1.65em;
+  line-height: 1.166em;
+  margin: 0 0 0.667em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_paragraph\.scss}line{font-family:\0000313}}
+h3 {
+  font-size: 1.5em;
+  margin: 0 0 0.667em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_paragraph\.scss}line{font-family:\0000317}}
+h4 {
+  font-size: 1.3em;
+  font-weight: normal;
+  margin: 0 0 0.769em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_paragraph\.scss}line{font-family:\0000322}}
+h5 {
+  font-size: 1em;
+  margin: 0 0 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_paragraph\.scss}line{font-family:\0000326}}
+h6 {
+  font-size: 0.9166em;
+  font-weight: normal;
+  margin: 0 0 1.090em;
+  text-transform: uppercase;
+}
+
+/* Paragraphs
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_paragraph\.scss}line{font-family:\0000335}}
+abbr[title],
+acronym[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_paragraph\.scss}line{font-family:\0000340}}
+blockquote {
+  border-left: solid 5px #b3b3b3;
+  font-style: oblique;
+  margin: 1em 0;
+  padding: 0 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_paragraph\.scss}line{font-family:\0000347}}
+code {
+  background: #333333;
+  color: #cccccc;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0 0 2px #1a1a1a inset;
+  -webkit-box-shadow: 0 0 2px #1a1a1a inset;
+  -o-box-shadow: 0 0 2px #1a1a1a inset;
+  box-shadow: 0 0 2px #1a1a1a inset;
+  padding: 0 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_paragraph\.scss}line{font-family:\0000363}}
+hr {
+  border: none;
+  border-top: solid 1px #CCCCCC;
+  height: 0;
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_paragraph\.scss}line{font-family:\0000370}}
+p {
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_paragraph\.scss}line{font-family:\0000374}}
+pre code {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1a1a1a;
+  display: block;
+  border-left-width: 15px;
+  font-size: 1.0833em;
+  padding: 0.5em;
+}
+
+/* Links */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_paragraph\.scss}line{font-family:\0000384}}
+a {
+  color: #0000ee;
+  text-decoration: none;
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_paragraph\.scss}line{font-family:\0000389}}
+a:hover {
+  text-decoration: underline;
+  color: #0000ee;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_paragraph\.scss}line{font-family:\0000393}}
+a span {
+  cursor: pointer;
+}
+
+/* Tables
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_table\.scss}line{font-family:\000033}}
+table {
+  border: solid 1px #cccccc;
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_table\.scss}line{font-family:\000038}}
+th {
+  background-color: #f2f2f2;
+  border: solid 1px #cccccc;
+  padding: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_table\.scss}line{font-family:\0000313}}
+td {
+  background-color: #f2f2f2;
+  border: solid 1px #cccccc;
+  padding: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_table\.scss}line{font-family:\0000318}}
+tbody th {
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_base_table\.scss}line{font-family:\0000321}}
+tfoot td {
+  background-color: #f2f2f2;
+}
+
+/* normalize.css v1.0.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_bp_normalize\.scss}line{font-family:\0000318}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_bp_normalize\.scss}line{font-family:\0000326}}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_bp_normalize\.scss}line{font-family:\0000335}}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3,
+ * and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_bp_normalize\.scss}line{font-family:\0000344}}
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_bp_normalize\.scss}line{font-family:\0000356}}
+html {
+  font-size: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_bp_normalize\.scss}line{font-family:\0000366}}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_bp_normalize\.scss}line{font-family:\0000372}}
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_bp_normalize\.scss}line{font-family:\0000376}}
+small {
+  font-size: 80%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_bp_normalize\.scss}line{font-family:\0000383}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_bp_normalize\.scss}line{font-family:\0000389}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_bp_normalize\.scss}line{font-family:\0000392}}
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improves image quality when scaled in IE 7.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_bp_normalize\.scss}line{font-family:\00003102}}
+img {
+  border: 0;
+  /* 1 */
+  -ms-interpolation-mode: bicubic;
+  /* 2 */
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_bp_normalize\.scss}line{font-family:\00003109}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_bp_normalize\.scss}line{font-family:\00003118}}
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_bp_normalize\.scss}line{font-family:\00003129}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_bp_normalize\.scss}line{font-family:\00003140}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 3+.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/basic\/_bp_normalize\.scss}line{font-family:\00003147}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* customised */
+/**
+ * Button file 
+ * Styleing for all buttons and button links
+ * R.D/ 05.11.2012.
+ * Cr/ Dexter
+ * V: 1.0
+**/
+/* mixin for buttons */
+/* ====================================================================================== styling */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/_buttons\.scss}line{font-family:\0000337}}
+a.button {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #45abe1;
+  padding: 4px 10px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/_buttons\.scss}line{font-family:\0000322}}
+a.button:hover {
+  background-color: #4a4a4a;
+  color: white;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/_buttons\.scss}line{font-family:\0000340}}
+input[type="submit"] {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #45abe1;
+  padding: 3px 10px 5px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: normal;
+  border: none;
+  padding: 3px 10px 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/_buttons\.scss}line{font-family:\0000322}}
+input[type="submit"]:hover {
+  background-color: #4a4a4a;
+  color: white;
+  text-decoration: none;
+}
+
+/*
+ * drupal scss file
+ * R.D/ 05.11.2012.
+ * Cr/ Dexter
+ * V: 1.0
+**/
+/*
+ * R.D/ 05.11.2012. 
+ * Cr/ Dexter
+ * V: 1.0
+**/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/drupal\/_dru_views\.scss}line{font-family:\0000311}}
+.view .view-content .views-row {
+  border-bottom: 1px solid #969696;
+  padding: 10px 0;
+  margin: 0;
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000322}}
+.view .view-content .views-row:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+/*
+ * Drupal menu and navigation
+**/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/drupal\/_dru_menu\.scss}line{font-family:\000035}}
+#main-nav {
+  background-color: #4a4a4a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/drupal\/_dru_menu\.scss}line{font-family:\000039}}
+#main-nav ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000322}}
+#main-nav ul.menu:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/drupal\/_dru_menu\.scss}line{font-family:\0000315}}
+#main-nav ul.menu li {
+  background-image: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/drupal\/_dru_menu\.scss}line{font-family:\0000321}}
+#main-nav ul.menu li a {
+  float: left;
+  color: white;
+  padding: 7px 10px;
+  background-color: transparent;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/a_compass_style\/compass-structure-and-base-settings\/sass\/ct\/drupal\/_dru_menu\.scss}line{font-family:\0000327}}
+#main-nav ul.menu li a:hover {
+  background-color: #e7e7e7;
+  color: black;
+}

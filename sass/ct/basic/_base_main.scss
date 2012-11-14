@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+* {
+  margin-top: 0;
+  word-wrap: break-word;
+}
+
+pre,
+code,
+kbd,
+samp,
+tt,
+var {
+  font-family: $base_font_pre;
+  font-size: 1em;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}

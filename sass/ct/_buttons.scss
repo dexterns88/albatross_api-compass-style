@@ -1,0 +1,42 @@
+/**
+ * Button file 
+ * Styleing for all buttons and button links
+ * R.D/ 05.11.2012.
+ * Cr/ Dexter
+ * V: 1.0
+**/
+
+
+/* mixin for buttons */
+@mixin button( $input : false , $normal : #45ABE1 , $hover : #4a4a4a , $radius : 3px , $fsize: 12px , $lineh: normal , $fontcolor: #fff , $hfontcolor: #fff , $pat: 4px, $padding: 4px 10px , $curs: pointer ) {
+  
+  @include border-radius($radius);
+  background-color: $normal;
+  padding: $padding;
+  text-decoration: none;
+  color: $fontcolor;
+  cursor: $curs;
+  font-size: $fsize;
+  line-height: $lineh;
+  
+  &:hover {
+    background-color: $hover ;
+    color: $hfontcolor;
+    text-decoration: none;
+  }
+  
+  @if $input  {
+    border: none;
+    padding: $padding;
+  }
+  
+}
+
+/* ====================================================================================== styling */
+
+a.button {
+  @include button();
+}
+input[type="submit"] {
+  @include button( $input: true , $padding: 3px 10px 5px );
+}

@@ -1,0 +1,19 @@
+/*
+ * R.D/ 05.11.2012. 
+ * Cr/ Dexter
+ * V: 1.0
+**/
+
+
+.view {
+  .view-content {
+    
+    .views-row {
+      border-bottom: $view-border;
+      padding: $viewrow-padding;
+      margin: $viewrow-margin;
+      
+      @include legacy-pie-clearfix();
+    }
+  }
+}

@@ -1,0 +1,95 @@
+/* Headings
+ * ========================================================================== */
+h1 {
+  font-size: 2.1em;
+  line-height: 1em;
+  margin: 0 0 0.500em;
+}
+h2 {
+  font-size: 1.65em;
+  line-height: 1.166em;
+  margin: 0 0 0.667em;
+}
+h3 {
+  font-size: 1.5em;
+  margin: 0 0 0.667em;
+}
+h4 {
+  font-size: 1.3em;
+  font-weight: normal;
+  margin: 0 0 0.769em ;
+}
+h5 {
+  font-size: 1em;
+  margin: 0 0 1em;
+}
+h6 {
+  font-size: 0.9166em;
+  font-weight: normal;
+  margin: 0 0 1.090em;
+  text-transform: uppercase;
+}
+/* Paragraphs
+ * ========================================================================== */
+abbr[title],
+acronym[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+blockquote {
+  border-left: solid 5px #b3b3b3;
+  font-style: oblique;
+  margin: 1em 0;
+  padding: 0 1em;
+}
+
+code {
+  background: #333333;
+  color: #cccccc;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0 0 2px #1a1a1a inset;
+  -webkit-box-shadow: 0 0 2px #1a1a1a inset;
+  -o-box-shadow: 0 0 2px #1a1a1a inset;
+  box-shadow: 0 0 2px #1a1a1a inset;
+  padding: 0 0.5em;
+}
+
+hr {
+  border: none;
+  border-top: solid 1px #CCCCCC;
+  height: 0;
+  margin: 1em 0;
+}
+
+p {
+  margin: 1em 0;
+}
+
+pre code {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1a1a1a;
+  display: block;
+  border-left-width: 15px;
+  font-size: 1.0833em;
+  padding: 0.5em;
+}
+/* Links */
+a {
+  color: $defaukt-link-color;
+  text-decoration: none;
+  outline: 0;
+}
+a:hover {
+  text-decoration: underline;
+  color: $default-link-hover-color;
+}
+a span {
+  cursor: pointer;
+}

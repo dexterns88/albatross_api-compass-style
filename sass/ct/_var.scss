@@ -1,0 +1,17 @@
+/**
+ * Global variable file
+ * R.D/ 05.11.2012.
+ * Cr/ Dexter
+ * V: 1.0
+**/
+
+/* EXAMPE!!
+ * $variable_name : var_value; ->( $text-color : #3d3d3d; )
+ * variable need to have comment for what we use it
+**/
+/*================================================================================================*/
+@import "var/var_main.scss";
+@import "var/var_fonts.scss";
+@import "var/var_table.scss";
+@import "var/var_forms.scss";
+@import "var/var_drupal.scss";
