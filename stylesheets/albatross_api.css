@@ -1,0 +1,274 @@
+/* Reset style api
+| For best crosbrowser performance
+================================== */
+/* bundler */
+/*
+	require file is config file for include all require item and file;
+*/
+/* api core */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_form_res\.scss}line{font-family:\000035}}
+form textarea,
+form select,
+form input[type="text"] {
+  margin: 5px 0;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_form_res\.scss}line{font-family:\0000313}}
+form label {
+  display: inline-block;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_form_res\.scss}line{font-family:\0000317}}
+form label input[type="text"] {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_form_res\.scss}line{font-family:\0000323}}
+form fieldset {
+  border: 1px solid #D8D8D8;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_form_res\.scss}line{font-family:\0000327}}
+form fieldset legend {
+  padding: 4px 7px;
+  text-transform: capitalize;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_form_res\.scss}line{font-family:\0000337}}
+form .form-item.inline {
+  display: inline-block;
+  vertical-align: top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_form_res\.scss}line{font-family:\0000344}}
+form .inline-wrapper {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_form_res\.scss}line{font-family:\0000347}}
+form .inline-wrapper * {
+  text-align: left;
+}
+
+/*
+| Table reset api
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_table_res\.scss}line{font-family:\000035}}
+table {
+  border-collapse: collapse;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_table_res\.scss}line{font-family:\0000310}}
+table th,
+table td {
+  padding: 5px 7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_table_res\.scss}line{font-family:\0000314}}
+table td {
+  vertical-align: top;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_typography_res\.scss}line{font-family:\000031}}
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_typography_res\.scss}line{font-family:\000036}}
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_typography_res\.scss}line{font-family:\0000322}}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999999;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_typography_res\.scss}line{font-family:\0000330}}
+h1,
+h2,
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_typography_res\.scss}line{font-family:\0000337}}
+h4,
+h5,
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_typography_res\.scss}line{font-family:\0000343}}
+h1,
+.h1 {
+  font-size: 36px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_typography_res\.scss}line{font-family:\0000348}}
+h2,
+.h2 {
+  font-size: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_typography_res\.scss}line{font-family:\0000353}}
+h3,
+.h3 {
+  font-size: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_typography_res\.scss}line{font-family:\0000358}}
+h4,
+.h4 {
+  font-size: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_typography_res\.scss}line{font-family:\0000363}}
+h5,
+.h5 {
+  font-size: 14px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_typography_res\.scss}line{font-family:\0000368}}
+h6,
+.h6 {
+  font-size: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_typography_res\.scss}line{font-family:\0000373}}
+h1 small,
+.h1 small {
+  font-size: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_typography_res\.scss}line{font-family:\0000378}}
+h2 small,
+.h2 small {
+  font-size: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/api_reset\/_typography_res\.scss}line{font-family:\0000385}}
+h3 small,
+.h3 small,
+h4 small,
+.h4 small {
+  font-size: 14px;
+}
+
+/* theme */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/minimal\/_table\.scss}line{font-family:\000032}}
+table {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/minimal\/_table\.scss}line{font-family:\000038}}
+table tr th, table tr td {
+  border: 1px solid #AEAEAE;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/minimal\/_table\.scss}line{font-family:\0000312}}
+table tr th {
+  background-color: #515151;
+  border-bottom-width: 2px;
+  border-color: #121210;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/minimal\/_table\.scss}line{font-family:\0000319}}
+table tr:nth-child(even) td {
+  background-color: #EAEAEA;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/minimal\/_table\.scss}line{font-family:\0000323}}
+table tr:hover td {
+  background-color: #676767;
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/minimal\/_forms\.scss}line{font-family:\000032}}
+form {
+  border: 1px solid #999999;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f4f4f4), color-stop(100%, #ffffff));
+  background-image: -webkit-linear-gradient(top, #f4f4f4, #ffffff);
+  background-image: -moz-linear-gradient(top, #f4f4f4, #ffffff);
+  background-image: -o-linear-gradient(top, #f4f4f4, #ffffff);
+  background-image: linear-gradient(top, #f4f4f4, #ffffff);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/minimal\/_forms\.scss}line{font-family:\0000310}}
+form legend {
+  font-size: 16px;
+  font-weight: normal;
+  border: 1px solid #505245;
+  background-color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/minimal\/_forms\.scss}line{font-family:\0000319}}
+form .description {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: italic;
+  margin: 15px 0;
+  border: 1px solid #E9E9E9;
+  background-color: #EBEBEB;
+  padding: 5px;
+  color: #494949;
+  /* > *:first-child {
+  	margin-bottom: 0;
+  } */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/minimal\/_forms\.scss}line{font-family:\0000336}}
+form input[type="text"],
+form select {
+  border: 1px solid #BCBCBC;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/minimal\/_forms\.scss}line{font-family:\0000340}}
+form .form-item {
+  margin: 15px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/minimal\/_forms\.scss}line{font-family:\0000346}}
+form .form-item.block-inner > label {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 14px;
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/minimal\/_forms\.scss}line{font-family:\0000355}}
+form .form-item.block-inner select,
+form .form-item.block-inner input {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/minimal\/_layout\.scss}line{font-family:\000031}}
+.page-holder {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/compass_reset\/sass\/albatross_api\/minimal\/_layout\.scss}line{font-family:\000036}}
+code {
+  display: block;
+}

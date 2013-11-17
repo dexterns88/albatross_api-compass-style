@@ -3,22 +3,3 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/css3";
-@import "compass/utilities";
-
-
-/* import compass custom tools style */
-/* main */
-@import "ct/var.scss";
-@import "ct/basic.scss";
-@import "ct/sprite.scss";
-
-
-/* customised */
-@import "ct/mixins.scss";
-@import "ct/buttons.scss";
-@import "ct/drupal.scss";
-@import "ct/layout.scss";
-@import "ct/sidebar.scss";
-
-@import "ct/page.scss";

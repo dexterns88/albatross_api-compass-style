@@ -1,10 +1,8 @@
 # Require any additional compass plugins here.
 
-# debug mode on off
 sass_options = {:debug_info => true}
-
 # Set this to the root of your project when deployed:
-http_path = ".."
+http_path = "/"
 css_dir = "stylesheets"
 sass_dir = "sass"
 images_dir = "images"
