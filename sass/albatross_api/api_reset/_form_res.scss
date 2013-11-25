@@ -2,12 +2,17 @@ form {
 	
 	textarea,
 	select,
-	input[type="text"] {
+	input[type="text"],
+	input[type="password"] {
 		margin: 5px 0;
 		padding: 5px;
   	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+  }
+	
+	input[type="submit"] {
+  	cursor: pointer;	
   }
 
 	label {
