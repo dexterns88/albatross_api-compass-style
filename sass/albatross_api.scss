@@ -1,7 +1,6 @@
-/* Reset style api
-| For best crosbrowser performance
+/*
+| Albatros compass base api system
 ================================== */
 
 /* bundler */
-@import "albatross_api/require";
-@import "albatross_api/api_bundle";
+@import "albatross_api/bundle_albatros";
