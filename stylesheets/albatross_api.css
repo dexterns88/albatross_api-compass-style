@@ -9,6 +9,15 @@
 /*
 	require file is config file for include all require item and file;
 */
+/*
+Helper for hide text into file
+ */
+/*
+Media query responsive
+ */
+/*
+Mixin for retina support
+ */
 /* api core */
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/development\/albatros_sass\/sass\/albatross_api\/api_reset\/_form_res\.scss}line{font-family:\000036}}
 form textarea,
