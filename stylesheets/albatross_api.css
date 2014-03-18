@@ -18,6 +18,9 @@ Media query responsive
 /*
 Mixin for retina support
  */
+/*
+Forms
+ */
 /* api core */
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/development\/albatros_sass\/sass\/albatross_api\/core\/api_reset\/_form_res\.scss}line{font-family:\000036}}
 form textarea,
@@ -304,7 +307,7 @@ form .form-item.block-inner input {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/development\/albatros_sass\/sass\/albatross_api\/core\/minimal\/_layout\.scss}line{font-family:\000031}}
 .page-holder {
-  max-width: 1024px;
+  max-width: "1024px";
   margin: 0 auto;
 }
 
