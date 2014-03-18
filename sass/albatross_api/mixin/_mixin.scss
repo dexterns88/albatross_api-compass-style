@@ -1,7 +1,44 @@
+/*
+Helper for hide text into file
+ */
 @mixin hide( $display : block ){
   text-indent: -9999em;
   text-transform: uppercase;
   overflow: hidden;
   display: $display;
   text-align: left;
+}
+
+
+/*
+Mixin for retina support
+ */
+@mixin retina() {
+
+	@media only screen and (min--moz-device-pixel-ratio: 2), 
+				 only screen and (-o-min-device-pixel-ratio: 2/1), 
+				 only screen and (-webkit-min-device-pixel-ratio: 2), 
+				 only screen and (min-device-pixel-ratio: 2)
+	{
+		@content;
+	}
+
+}
+
+
+/*
+Media query responsive
+ */
+$mobile: 768px;
+$smallMobile: 480px;
+@mixin respond-to($media) {
+    @if $media == mobile {
+        @media only screen and (max-width: $mobile) { @content; }
+    }
+    @else if $media == gtMobile {
+        @media only screen and (min-width: $mobile) { @content; }
+    }
+    @else if $media == smallMobile {
+        @media only screen and (max-width: $smallMobile) { @content}
+    }
 }
