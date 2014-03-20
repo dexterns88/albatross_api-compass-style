@@ -1,40 +1,35 @@
 
 form {
 	
-	border: 1px solid #999999;
-	padding: 10px;
+	border: $minimal_formBorder;
+	padding: $minimal_formPadding;
 	
-	@include border-radius( 5px );
-	@include background-image(linear-gradient( top, #F4F4F4, #fff));
+	@include border-radius( $minimal_formRadius );
+	@include background-image( $minimal_formBackground );
 	
 	legend {
-		font-size: 16px;
-    font-weight: normal;
-    border: 1px solid #505245;
-    background-color: #fff;
-    @include border-radius(3px);
-    @include box-shadow( 0px 0px 3px 1px rgba(0, 0, 0, 0.2) );
+		font-size: $minimal_legendSize;
+		font-weight: $minimal_legendFontWeight;
+		border: $minimal_legendBorder;
+		background-color: $minimal_legendBC;
+		@include border-radius( $minimal_legendRadius);
+		@include box-shadow( $minimal_legendShadow );
 	}
 
 	.description {
-		font-size: 12px;
-		font-weight: normal;
-		font-style: italic;
-		margin: 15px 0;
-		border: 1px solid #E9E9E9;
-		background-color: #EBEBEB;
-		padding: 5px;
-		color: #494949;
-		
-		/* > *:first-child {
-			margin-bottom: 0;
-		} */
-
+		font-size: $minimal_descFontiSize;
+		font-weight: $minimal_descFontWeight;
+		font-style: $minimal_descFontStyle;
+		margin: $minimal_descMargin;
+		border: $minimal_descBorder;
+		background-color: $minimal_descBC;
+		padding: $minimal_descPadding;
+		color: $minimal_descColor;
 	}
 
 	input[type="text"],
 	select {
-		border: 1px solid #BCBCBC;
+		border: $minimal_formItemsBorder;
 	}
 
 	.form-item {
@@ -47,7 +42,7 @@ form {
 				display: block;
 				margin-left: 0;
 				margin-right: 0;
-				font-size: 14px;
+				font-size: $minimal_labelFontSize;
 				margin-top: 0;
 			}
 

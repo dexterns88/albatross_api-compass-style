@@ -21,6 +21,18 @@ Mixin for retina support
 /*
 Forms
  */
+/*
+Form Legend
+ */
+/*
+Description
+ */
+/*
+Input and select
+ */
+/*
+Label
+ */
 /* api core */
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/development\/albatros_sass\/sass\/albatross_api\/core\/api_reset\/_form_res\.scss}line{font-family:\000036}}
 form textarea,
@@ -240,58 +252,51 @@ body {
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/development\/albatros_sass\/sass\/albatross_api\/core\/minimal\/_forms\.scss}line{font-family:\000032}}
 form {
-  border: 1px solid #999999;
-  padding: 10px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f4f4f4), color-stop(100%, #ffffff));
-  background-image: -webkit-linear-gradient(top, #f4f4f4, #ffffff);
-  background-image: -moz-linear-gradient(top, #f4f4f4, #ffffff);
-  background-image: -o-linear-gradient(top, #f4f4f4, #ffffff);
-  background-image: linear-gradient(top, #f4f4f4, #ffffff);
+  border: "1px solid #999999;";
+  padding: "10px";
+  -webkit-border-radius: "5px";
+  -moz-border-radius: "5px";
+  -ms-border-radius: "5px";
+  -o-border-radius: "5px";
+  border-radius: "5px";
+  background-image: "linear-gradient( top, #F4F4F4, #fff)";
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/development\/albatros_sass\/sass\/albatross_api\/core\/minimal\/_forms\.scss}line{font-family:\0000310}}
 form legend {
-  font-size: 16px;
-  font-weight: normal;
-  border: 1px solid #505245;
-  background-color: #fff;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+  font-size: "16px";
+  font-weight: "normal";
+  border: "1px solid #505245";
+  background-color: "#fff";
+  -webkit-border-radius: "3px";
+  -moz-border-radius: "3px";
+  -ms-border-radius: "3px";
+  -o-border-radius: "3px";
+  border-radius: "3px";
+  -webkit-box-shadow: "0px 0px 3px 1px rgba(0, 0, 0, 0.2)";
+  -moz-box-shadow: "0px 0px 3px 1px rgba(0, 0, 0, 0.2)";
+  box-shadow: "0px 0px 3px 1px rgba(0, 0, 0, 0.2)";
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/development\/albatros_sass\/sass\/albatross_api\/core\/minimal\/_forms\.scss}line{font-family:\0000319}}
 form .description {
-  font-size: 12px;
-  font-weight: normal;
-  font-style: italic;
-  margin: 15px 0;
-  border: 1px solid #E9E9E9;
-  background-color: #EBEBEB;
-  padding: 5px;
-  color: #494949;
-  /* > *:first-child {
-  	margin-bottom: 0;
-  } */
+  font-size: "12px";
+  font-weight: "normal";
+  font-style: "italic";
+  margin: "15px 0";
+  border: "1px solid #E9E9E9";
+  background-color: "#EBEBEB";
+  padding: "5px";
+  color: "#494949";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/development\/albatros_sass\/sass\/albatross_api\/core\/minimal\/_forms\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/development\/albatros_sass\/sass\/albatross_api\/core\/minimal\/_forms\.scss}line{font-family:\0000331}}
 form input[type="text"],
 form select {
-  border: 1px solid #BCBCBC;
+  border: "1px solid #BCBCBC";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/development\/albatros_sass\/sass\/albatross_api\/core\/minimal\/_forms\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/development\/albatros_sass\/sass\/albatross_api\/core\/minimal\/_forms\.scss}line{font-family:\0000335}}
 form .form-item {
   margin: 15px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/development\/albatros_sass\/sass\/albatross_api\/core\/minimal\/_forms\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/development\/albatros_sass\/sass\/albatross_api\/core\/minimal\/_forms\.scss}line{font-family:\0000341}}
 form .form-item.block-inner > label {
   display: block;
   margin-left: 0;
@@ -299,7 +304,7 @@ form .form-item.block-inner > label {
   font-size: 14px;
   margin-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/development\/albatros_sass\/sass\/albatross_api\/core\/minimal\/_forms\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/development\/albatros_sass\/sass\/albatross_api\/core\/minimal\/_forms\.scss}line{font-family:\0000350}}
 form .form-item.block-inner select,
 form .form-item.block-inner input {
   width: 100%;
