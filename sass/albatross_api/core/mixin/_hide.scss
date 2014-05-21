@@ -1,10 +1,10 @@
-/*
-Helper for hide text into file
- */
-@mixin hide( $display : block ){
-  text-indent: -9999em;
-  text-transform: uppercase;
+/*###############################
+## Helper for hide text into file
+##################################*/
+@mixin hide( $display: block ) {
+	display: $display;
   overflow: hidden;
-  display: $display;
   text-align: left;
+	text-indent: -9999em;
+  text-transform: uppercase;
 }

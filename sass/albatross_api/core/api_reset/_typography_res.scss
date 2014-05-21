@@ -10,6 +10,7 @@ ol,ul {
 
 a {
   text-decoration: none;
+  
   &:hover {
     text-decoration: underline;
   }
@@ -27,9 +28,9 @@ h6 small,
 .h4 small,
 .h5 small,
 .h6 small {
+  color: #999999;
   font-weight: normal;
   line-height: 1;
-  color: #999999;
 }
 
 h1,
@@ -95,7 +96,6 @@ h4 small,
 
 /* message */
 .message {
-  
   margin: 10px 0 15px;
   text-align: center;
   

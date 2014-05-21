@@ -1,30 +1,28 @@
 
 form {
-	
 	border: $minimal_formBorder;
 	padding: $minimal_formPadding;
-	
 	@include border-radius( $minimal_formRadius );
 	@include background-image( $minimal_formBackground );
 	
 	legend {
+		background-color: $minimal_legendBC;
+		border: $minimal_legendBorder;
 		font-size: $minimal_legendSize;
 		font-weight: $minimal_legendFontWeight;
-		border: $minimal_legendBorder;
-		background-color: $minimal_legendBC;
 		@include border-radius( $minimal_legendRadius);
 		@include box-shadow( $minimal_legendShadow );
 	}
 
 	.description {
-		font-size: $minimal_descFontiSize;
-		font-weight: $minimal_descFontWeight;
-		font-style: $minimal_descFontStyle;
-		margin: $minimal_descMargin;
-		border: $minimal_descBorder;
 		background-color: $minimal_descBC;
-		padding: $minimal_descPadding;
+		border: $minimal_descBorder;
 		color: $minimal_descColor;
+		font-size: $minimal_descFontiSize;
+		font-style: $minimal_descFontStyle;
+		font-weight: $minimal_descFontWeight;
+		margin: $minimal_descMargin;
+		padding: $minimal_descPadding;
 	}
 
 	input[type="text"],
@@ -32,8 +30,7 @@ form {
 		border: $minimal_formItemsBorder;
 	}
 
-	.form-item {
-		
+	.form-item {		
 		margin: 15px 0;
 
 		&.block-inner {
@@ -50,10 +47,6 @@ form {
 			input {
 				width: 100%;
 			}
-
 		}
-
 	}
-
-
 }

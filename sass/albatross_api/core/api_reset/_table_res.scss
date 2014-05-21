@@ -1,9 +1,8 @@
-/*
-| Table reset api
-*/
-
+/*################
+## Table reset api
+## Last refactor: 21.05.14
+##########################*/
 table {
-	
 	border-collapse: collapse;
 
 	th,
@@ -14,5 +13,4 @@ table {
 	td {
 		vertical-align: top;
 	}
-
-}
+}//table

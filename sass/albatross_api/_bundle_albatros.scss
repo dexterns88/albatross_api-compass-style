@@ -1,16 +1,15 @@
-/* core bundler for call models
- * ============================ */
+/*#############################
+## core bundler for call models
+################################*/
 
-
-/* Core modules
- */
-
+/*#############
+## Core modules
+################*/
 @import "require_albatros";
-
 @import "core/api_reset/bundle_api_reset";
 @import "core/minimal/bundle_minimal";
 
-/* Custom modules
- */
-
+/*###############
+## Custom modules
+##################*/
 @import "default_themes/bundle_default_themes";

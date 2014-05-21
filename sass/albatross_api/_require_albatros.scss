@@ -1,18 +1,15 @@
-/*
-	require file is config file for include all require item and file;
-*/
+/*##################################################################
+## Require file is config file for include all require item and file
+#####################################################################*/
 
-// require compass library
+// Require compass library
 @import "compass/css3";
 
-
-
-// mixin include
+// Mixin include
 @import "core/mixin/bundle_mixin";
 
-// variables
+// Variables
 @import "core/vars/bundle_vars";
 
-
-// sprite
+// Sprite
 @import "../sprites/bundle_sprite";
