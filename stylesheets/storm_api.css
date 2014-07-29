@@ -11,18 +11,6 @@
 /*##################################################################
 ## Require file is config file for include all require item and file
 #####################################################################*/
-/*#################
-## Bundle for mixin
-#################### */
-/*###############################
-## Helper for hide text into file
-##################################*/
-/*#######################
-## Media query responsive
-##########################*/
-/*
-Mixin for retina support
- */
 /*######
 ## Forms
 #########*/
@@ -38,6 +26,18 @@ Mixin for retina support
 /*######
 ## Label
 #########*/
+/*#################
+## Bundle for mixin
+#################### */
+/*#######################
+## Media query responsive
+##########################*/
+/*
+Mixin for retina support
+ */
+/*###############################
+## Helper for hide text into file
+##################################*/
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/labs\/storm_api-compass-style\/sass\/sprites\/_icons\.scss}line{font-family:\0000326}}
 .icons-sprite {
   background: url('/images/icons-sed4b26744d.png') no-repeat;
