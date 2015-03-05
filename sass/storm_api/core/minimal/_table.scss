@@ -1,3 +1,24 @@
+/* table end enviroment */
+.table {
+  display: table;
+
+  &.full-h {
+    height: 100%;
+  }
+}
+
+.tcell {
+  display: table-cell;
+
+  &.abottom {
+    vertical-align: bottom;
+  }
+}
+
+.trow {
+  display: table-row;
+}
+
 table {
 	width: 100%;
 
